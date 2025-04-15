@@ -502,6 +502,17 @@
                 const temp = document.createElement("div");
                 temp.innerHTML = html;
 
+                const chatBox = document.getElementById("chatgpt-box");
+
+                function scrollToBottom() {
+                    if (chatBox) {
+                        chatBox.scrollTo({
+                            top: chatBox.scrollHeight,
+                            behavior: "smooth"
+                        });
+                    }
+                }
+
                 function typeNode(node, parent, done) {
                     if (node.nodeType === Node.TEXT_NODE) {
                         const text = node.textContent;
@@ -511,6 +522,7 @@
                             if (i < text.length) {
                                 parent.appendChild(document.createTextNode(text.charAt(i)));
                                 i++;
+                                scrollToBottom(); // hanya scroll saat sedang mengetik
                                 setTimeout(typeChar, speed);
                             } else {
                                 done();
@@ -533,9 +545,6 @@
                                 done();
                             }
                         }
-                        $("#chatgpt-box").animate({
-                            scrollTop: $('#chatgpt-box').prop("scrollHeight")
-                        }, "smooth");
                         typeNextChild();
                     } else {
                         done();
