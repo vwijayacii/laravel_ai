@@ -1,0 +1,41 @@
+Daftar Pegawai Colliers Indonesia
+1. Nickname : Alex
+   Name : Alex Alexander
+   Title : Senior Officer - Applications
+   Division : Real Estate Management Services
+   Location : WTC
+2. Nickname : Dian
+   Name : Dian Hartanto
+   Title : Senior Officer - IT
+   Division : Information & Technology
+   Location : WTC
+3. Nickname : Didit
+   Name : Didit Priyono
+   Title : Senior Manager - Applications
+   Division : Information & Technology
+   Location : WTC
+4. Nickname : Dikdik
+   Name : Dikdik Andhika Ramdhan
+   Title : Assistant Manager - Applications
+   Division : Information & Technology
+   Location : WTC
+5. Nickname : Dody
+   Name : Dody Herlambang
+   Title : Senior Officer - IT
+   Division : Information & Technology
+   Location : WTC
+6. Nickname : Merry
+   Name : Merry Susastri
+   Title : Assistant Manager - Applications
+   Division : Information & Technology
+   Location : WTC
+7. Nickname : Vidi
+   Name : Vidya Dwi Turisqi Wijaya
+   Title : Senior Officer - Applications
+   Division : Information & Technology
+   Location : WTC
+8. Nickname : Yanto
+   Name : Yanto Sukri
+   Title : Senior Associate Director
+   Division : Information & Technology
+   Location : WTC
